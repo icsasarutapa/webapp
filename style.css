@@ -1,0 +1,61 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+  font-size: 10px;
+}
+body {
+  background-color: aliceblue;
+  padding-bottom: 1rem;
+}
+.courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.course-card {
+  margin: 1rem;
+  padding: 5rem;
+  background-color: white;
+  width: 80rem;
+  height: 25rem;
+  border-radius: 20px;
+  border: 1px solid peru;
+}
+
+.course-name {
+  font-size: 2rem;
+  display: flex;
+  color: white;
+  background-color: crimson;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.description {
+  padding: 1rem;
+  border: 1px solid peru;
+  border-radius: 20px;
+}
+.eligibility {
+  font-size: 2rem;
+}
+.duration {
+  font-size: 2rem;
+}
+.fee {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 50rem) {
+  .course-card {
+    margin: 1rem;
+    padding: 5rem;
+    background-color: white;
+    width: auto;
+    height: auto;
+  }
+}
